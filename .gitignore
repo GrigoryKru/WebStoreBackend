@@ -1,0 +1,12 @@
+# Зависимости
+node_modules/
+
+# Файлы окружения
+.env
+
+# Системные файлы
+.DS_Store
+
+# Локальные файлы npm/yarn
+package-lock.json
+yarn.lock
