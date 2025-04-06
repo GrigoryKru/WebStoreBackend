@@ -1,36 +1,39 @@
-***Online Store Backend API***
+# Online Store Backend API
 
-Node.js
-PostgreSQL
-Express
+![Node.js]
+![PostgreSQL]
+![Express]
 
 Backend API для интернет-магазина, построенный на Node.js с использованием Express и PostgreSQL.
 
-***Технологии и зависимости***
+## Технологии и зависимости
 
-**Основные зависимости:**
-express@5.1.0 - Фреймворк для создания сервера
-pg@8.14.1 - PostgreSQL клиент для Node.js
-sequelize@6.37.7 - ORM для работы с базой данных
-dotenv@16.4.7 - Загрузка переменных окружения
-cors@2.8.5 - Middleware для обработки CORS
+### Основные зависимости
+- **express@5.1.0** - Фреймворк для создания сервера
+- **pg@8.14.1** - PostgreSQL клиент для Node.js
+- **sequelize@6.37.7** - ORM для работы с базой данных
+- **dotenv@16.4.7** - Загрузка переменных окружения
+- **cors@2.8.5** - Middleware для обработки CORS
 
-**Дополнительные зависимости**:
-pg-hstore@2.3.4 - Поддержка hstore для PostgreSQL
-Dev-зависимости
-nodemon@3.1.9 - Автоматическая перезагрузка сервера при разработке
+### Дополнительные зависимости
+- **pg-hstore@2.3.4** - Поддержка hstore для PostgreSQL
 
-***Быстрый старт***
+### Dev-зависимости
+- **nodemon@3.1.9** - Автоматическая перезагрузка сервера при разработке
 
-**Предварительные требования**
+## Быстрый старт
 
-Node.js 18.x или выше
-PostgreSQL 14.x или выше
-npm 9.x или выше
+### Предварительные требования
+- Node.js 18.x или выше
+- PostgreSQL 14.x или выше
+- npm 9.x или выше
 
-**Установка**
-1.Клонируйте репозиторий:
-```git clone https://github.com/ваш-логин/online-store.git```
+### Установка
+
+1. Клонируйте репозиторий:
+```bash
+git clone https://github.com/ваш-логин/online-store.git
+cd online-store
 **Установите зависимости**:
 ```npm install express pg sequelize dotenv cors pg-hstore```
 ```npm install --save-dev nodemon```
